@@ -13,6 +13,7 @@ function App() {
         <div className="">
         </div>
       </div>
+      {/* tuesday */}
           <img className='h-[40vh] w-[200%]' src="images/pattern-hills.svg" alt="" srcset="" />
           <div className="flex justify-around px-24 absolute">
           <img className='' src="images/icon-facebook.svg" alt="" srcset="" />
