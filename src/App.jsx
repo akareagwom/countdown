@@ -13,13 +13,21 @@ function App() {
         <div className="">
         </div>
       </div>
+      <div className="flex justify-between pb-40 px-10 pt-10">
+        <h1 className='text-4xl'>09</h1>
+        <h1 className='text-4xl'>09</h1>
+        <h1 className='text-4xl'>09</h1>
+      </div>
       {/* tuesday */}
+      <div className="relative">
           <img className='h-[40vh] w-[200%]' src="images/pattern-hills.svg" alt="" srcset="" />
-          <div className="flex justify-around px-24 absolute">
+          <div className="flex justify-between left-[10%] items-center px-24 top-60 w-[300px] absolute">
           <img className='' src="images/icon-facebook.svg" alt="" srcset="" />
           <img className='' src="images/icon-pinterest.svg" alt="" srcset="" />
           <img className='' src="images/icon-instagram.svg" alt="" srcset="" />
           </div>
+
+      </div>
     </div>
   )
 }
