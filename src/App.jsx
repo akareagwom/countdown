@@ -8,15 +8,21 @@ function App() {
 
   return (
     <div className='bg-[#1e1f29] h-auto' >
-      <div className="text-white h-[60.3vh] py-20 text-center bg-[url(images/bg-stars.svg)] h-full">
+      <div className="
+      text-white 
+      h-[60.3vh] 
+      py-20 
+      text-center 
+      bg-no-repeat
+      bg-[url(images/bg-stars.svg)] h-full">
         <h1 className='uppercase  text-2xl text-bold'>We're launching soon</h1>
         <div className="">
         </div>
       </div>
       <div className="flex justify-between pb-40 px-10 pt-10">
-        <h1 className='text-4xl'>09</h1>
-        <h1 className='text-4xl'>09</h1>
-        <h1 className='text-4xl'>09</h1>
+        <h1 className='text-5xl text-pink-400'>09</h1>
+        <h1 className='text-5xl text-pink-400'>09</h1>
+        <h1 className='text-5xl text-pink-400'>09</h1>
       </div>
       {/* tuesday */}
       <div className="relative">
